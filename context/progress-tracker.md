@@ -35,4 +35,4 @@ change.
 
 ## Session Notes
 
-- [Context needed to resume work in the next session]
+- Updated `Card` and `DialogDescription` components to use Tailwind v4 child-selector syntax (`[&>...]`) instead of arbitrary selectors (`*:[...]`).
