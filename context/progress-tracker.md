@@ -9,12 +9,14 @@ change.
 
 ## Current Goal
 
-- Implement Design System and UI Primitive Components
+- Implement Editor Chrome (Navbar + Project Sidebar)
 
 ## Completed
 
 - Design System Setup (shadcn/ui, lucide-react, utils)
 - UI Primitive Components (Button, Card, Dialog, Input, Tabs, Textarea, ScrollArea)
+- Editor Chrome Components (EditorNavbar, ProjectSidebar)
+- Dialog Layout Pattern (title, description, footer)
 
 ## In Progress
 
@@ -35,4 +37,4 @@ change.
 
 ## Session Notes
 
-- Updated `Card` and `DialogDescription` components to use Tailwind v4 child-selector syntax (`[&>...]`) instead of arbitrary selectors (`*:[...]`).
+- Added editor chrome shell wiring on `app/page.tsx` with sidebar toggle state.
