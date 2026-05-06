@@ -25,6 +25,7 @@ Read the following files in order before implementing or making any architectura
 4. `context/code-standards.md` — implementation rules and conventions
 5. `context/ai-workflow-rules.md` — development workflow, scoping rules, and delivery approach
 6. `context/progress-tracker.md` — current phase, completed work, open questions, and next steps
+7. `docs/GEMINI.md` — localized documentation and architecture standards
 
 Update `context/progress-tracker.md` after each meaningful implementation change.
 
