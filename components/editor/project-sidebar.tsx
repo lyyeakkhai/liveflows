@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { cn } from "@/lib/utils"
 
-type ProjectSidebarProps = {
+interface ProjectSidebarProps {
   isOpen: boolean
   onClose?: () => void
   className?: string

@@ -1,6 +1,6 @@
 ---
 name: doc-arch-specialist
-description: Specialist for documentation and architecture updates. RESTRICTED: Can only modify files in the docs/ folder.
+description: "Specialist for documentation and architecture updates. RESTRICTED: Can only modify files in the docs/ folder."
 tools:
   - read_file
   - grep_search
