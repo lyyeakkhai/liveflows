@@ -9,7 +9,7 @@ change.
 
 ## Current Goal
 
-- Implement Editor Chrome (Navbar + Project Sidebar)
+- Set up Prisma schema with all models from PRD §8
 
 ## Completed
 
@@ -17,14 +17,27 @@ change.
 - UI Primitive Components (Button, Card, Dialog, Input, Tabs, Textarea, ScrollArea)
 - Editor Chrome Components (EditorNavbar, ProjectSidebar)
 - Dialog Layout Pattern (title, description, footer)
+- Package Installation — runtime + infra packages installed:
+  - `@liveblocks/react`, `@liveblocks/client`
+  - `ai`, `@ai-sdk/google`
+  - `@xyflow/react` (React Flow 12)
+  - `@clerk/nextjs`
+  - `zod`
+  - `@trigger.dev/sdk`
+  - `stripe`, `@stripe/stripe-js`
+  - `@upstash/redis`
+  - `@vercel/blob`
 
 ## In Progress
 
-- Core Feature Implementation *
+- Foundation & Tooling (Phase 0)
 
 ## Next Up
 
-- Core Feature Implementation
+- Prisma schema + initial migration
+- Clerk auth provider setup
+- tRPC router scaffold
+- Zod shared schemas
 
 ## Open Questions
 

@@ -28,7 +28,7 @@
 | # | Task | Owner | Deliverable |
 |---|---|---|---|
 | 0.1 | Install runtime packages: `@liveblocks/react`, `@liveblocks/client`, `ai`, `@ai-sdk/google`, `@xyflow/react` (v12), `@clerk/nextjs`, `zod` | Eng | `package.json` updated, lockfile committed |
-| 0.2 | Install background/job packages: `@trigger.dev/sdk`, `@trigger.dev/nextjs`, `stripe`, `@stripe/stripe-js`, `upstash-redis`, `@vercel/blob` | Eng | Same as above |
+| 0.2 | Install background/job packages: `@trigger.dev/sdk`, `stripe`, `@stripe/stripe-js`, `@upstash/redis`, `@vercel/blob` | Eng | Same as above |
 | 0.3 | Set up Prisma schema in `prisma/schema.prisma` with all models from PRD §8 (Organization, Member, Project, Canvas, Node, Edge, AiJob, Task) | Eng | Schema file + initial migration |
 | 0.4 | Configure Supabase connection and verify Prisma client generation | Eng | `lib/db.ts` or equivalent |
 | 0.5 | Set up Clerk auth provider in `app/layout.tsx` with org support | Eng | Sign-up/sign-in flows working |
